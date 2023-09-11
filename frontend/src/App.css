@@ -1,0 +1,40 @@
+#calendar {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+}
+
+#events{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#events .card{
+  width: 30%;
+  margin: 5px;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+}
+
+#addEventForm{
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+
+}
+
+#eventCard{
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  background-color: #121212; 
+  color: white !important;
+}
